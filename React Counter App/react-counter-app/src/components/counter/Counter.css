@@ -1,0 +1,26 @@
+.Counter {
+    background-color: #0d0d0d;
+    padding: 40px;
+    text-align: center;
+}
+
+.Counter h1 {
+    font-size: 120px;
+    color: #262626;
+}
+
+.Counter button {
+    font-size: 60px;
+    outline: none;
+    border: 1.5px solid #0099ff;
+    color: #0099ff;
+    background-color: #0d0d0d;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.Counter button:hover {
+    background-color: #0099ff;
+    color: #fff;
+    border: 1.5px solid #fff;
+}
