@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px 0px 0px 0px;
+    text-align: center;
 }
 
 #login-card-form form input {
@@ -47,6 +48,13 @@
     opacity: 0.5;
 }
 
+#login-card-form form input:focus {
+    border-top: 1.5px solid #0d0d0d;
+    border-right: 1.5px solid #0d0d0d;
+    border-bottom: 1.5px solid #0099ff;
+    border-left: 1.5px solid #0d0d0d;
+}
+
 #login-card-form form button {
     outline: none;
     border: 3px solid #0099ff;
@@ -62,5 +70,21 @@
 #login-card-form form button:hover {
     background-color: #0099ff;
     color: #fff;
+    transform: scale(1.1);
+}
+
+#login-card-form p {
+    text-align: center;
+    margin: 25px auto 0px auto;
+    padding: 5px;
+    color: #fff;
+    border: 1.5px solid #0d0d0d;
+    transition: all 0.3s ease;
+    max-width: fit-content;
+    cursor: default;
+}
+
+#login-card-form p:hover {
+    border: 1.5px solid #fff;
     transform: scale(1.1);
 }

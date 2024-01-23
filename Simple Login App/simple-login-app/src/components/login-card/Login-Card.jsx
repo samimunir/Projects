@@ -14,6 +14,7 @@ function LoginCard() {
                     <input type='password' name='password' placeholder='password' required/>
                     <button type='submit'>Login</button>
                 </form>
+                <p>Forgot password</p>
             </div>
             <div id='login-card-footer'></div>
         </div>
