@@ -1,0 +1,66 @@
+.Login-card {
+    background-color: #0d0d0d;
+    padding: 60px;
+    opacity: 0.9;
+}
+
+#login-card-title {
+    padding: 20px;
+    border-left: 3px solid #0099ff;
+    border-bottom: 3px solid #0099ff;
+}
+
+#login-card-title h1 {
+    color: #fff;
+    font-size: 48px;
+}
+
+#login-card-title h2 {
+    color: #fff;
+    font-size: 24px;
+    opacity: 0.75;
+}
+
+#login-card-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+#login-card-form form input {
+    display: block;
+    width: 200px;
+    outline: none;
+    border: 1.5px solid #0099ff;
+    padding: 10px;
+    background-color: #0d0d0d;
+    color: #0099ff;
+    margin: 10px 0px;
+    transition: all 0.3s ease;
+}
+
+#login-card-form form input::placeholder {
+    font-size: 18px;
+    color: #0099ff;
+    opacity: 0.5;
+}
+
+#login-card-form form button {
+    outline: none;
+    border: 3px solid #0099ff;
+    padding: 10px;
+    font-size: 18px;
+    margin: 25px 0px 0px 0px;
+    background-color: #0d0d0d;
+    color: #0099ff;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+#login-card-form form button:hover {
+    background-color: #0099ff;
+    color: #fff;
+    transform: scale(1.1);
+}
