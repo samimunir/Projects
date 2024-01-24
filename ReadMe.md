@@ -4,4 +4,4 @@ A collection/portfolio of my Computer Science projects.
 ## Directory
 ### Simple Login App - *HTML, CSS, React.js*
 ### React Counter App - *HTML, CSS, React.js, useState()*
-### React Expense Tracker - *HTML, CSS, React.js, useState(), useContext()*
+### React Expense Tracker - *HTML, CSS, React.js, useState(), Global-Context()*
