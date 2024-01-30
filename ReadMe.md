@@ -5,3 +5,4 @@ A collection/portfolio of my Computer Science projects.
 ### Simple Login App - *HTML, CSS, React.js*
 ### React Counter App - *HTML, CSS, React.js, useState()*
 ### React Expense Tracker - *HTML, CSS, React.js, useState(), ContextAPI*
+### Sorting Visualizer - *HTML, CSS, Javascript*
